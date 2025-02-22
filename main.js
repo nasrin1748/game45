@@ -4,7 +4,7 @@
 
         // Create a new image object
         var img = new Image();
-        img.src = 'img.png'; // Specify the path to your image
+        img.src = 'Untitled.png'; // Specify the path to your image
 
         // Variables to store the mouse position
         var mouseX = 0;
