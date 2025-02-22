@@ -41,15 +41,15 @@
     <p id="item"></p>
 	<div id="canvasContainer">
         <canvas id="myCanvas" width="800" height="600"></canvas>
-        <button id="myButton"></button>
+        <button py-click="fun" id="myButton"></button>
     </div>
-    <script type="py" config="./pyscript.toml">
+    <script type="py">
 from pyscript import when,document
-from pyscript import display    
+from pyscript import display
 @when("click", "#myButton")
 def fun(event):
     q = document.querySelector("#item")
-    q.innerText = "winner" 
+    q.innerText = "winner"
     </script>
      <script src="./main.js">
 
